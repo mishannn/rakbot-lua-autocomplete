@@ -1,0 +1,35 @@
+{
+    "name": "rakbot-lua-autocomplete",
+    "main": "./lib/main",
+    "version": "0.1.0",
+    "description": "Автодополнение Lua функций для RakBot",
+    "keywords": [],
+    "repository": "https://github.com/atom/rakbot-lua-autocomplete",
+    "license": "MIT",
+    "keywords": [
+        "lua",
+        "rakbot",
+        "autocompletion",
+        "samp",
+    ],
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "providedServices": {
+        "autocomplete.provider": {
+            "versions": {
+                "2.0.0": "getAutocompletionProvider"
+            }
+        }
+    },
+    "package-deps": [
+        "autocomplete-lua",
+        "language-luajit",
+        "linter-ui-default",
+        "linter-luaparse"
+    ],
+    "dependencies": {
+        "atom-package-deps": "latest",
+        "atom-space-pen-views": "^2.2.0"
+    }
+}

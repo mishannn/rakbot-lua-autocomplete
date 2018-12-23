@@ -1,0 +1,1016 @@
+{
+    "runCommand": {
+        "displayText": "runCommand(command)",
+        "descriptionMarkdown": "**Описание:** *печать строки в лог окно программы*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/runCommand)*",
+        "type": "function",
+        "snippet": "runCommand(command)"
+    },
+    "printLog": {
+        "displayText": "printLog(text)",
+        "descriptionMarkdown": "**Описание:** *вывод строки в лог-окно бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/printLog)*",
+        "type": "function",
+        "snippet": "printLog(text)"
+    },
+    "onScriptStart": {
+        "displayText": "onScriptStart()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при загрузке скрипта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onScriptStart)*",
+        "type": "snippet",
+        "snippet": "function onScriptStart()\n\t${0}\nend"
+    },
+    "disconnect": {
+        "displayText": "disconnect(timeout)",
+        "descriptionMarkdown": "**Описание:** *отключить бота от сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/disconnect)*",
+        "type": "function",
+        "snippet": "disconnect(timeout)"
+    },
+    "connect": {
+        "displayText": "connect()",
+        "descriptionMarkdown": "**Описание:** *подключение бота к текущему серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/connect)*",
+        "type": "function",
+        "snippet": "connect()"
+    },
+    "onDisconnect": {
+        "displayText": "onDisconnect(reason)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отключении бота от сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDisconnect)*",
+        "type": "snippet",
+        "snippet": "function onDisconnect(reason)\n\t${0}\nend"
+    },
+    "reconnect": {
+        "displayText": "reconnect(reconnectDelay)",
+        "descriptionMarkdown": "**Описание:** *перезаход на сервер*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/reconnect)*",
+        "type": "function",
+        "snippet": "reconnect(reconnectDelay)"
+    },
+    "getMoney": {
+        "displayText": "getMoney()",
+        "descriptionMarkdown": "**Описание:** *получить текущее количество денег бота(на руках)*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getMoney)*",
+        "type": "function",
+        "snippet": "getMoney()"
+    },
+    "enterVehicle": {
+        "displayText": "enterVehicle(vehicleId, seatId)",
+        "descriptionMarkdown": "**Описание:** *сесть в транспортное средство*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/enterVehicle)*",
+        "type": "function",
+        "snippet": "enterVehicle(vehicleId, seatId)"
+    },
+    "exitVehicle": {
+        "displayText": "exitVehicle()",
+        "descriptionMarkdown": "**Описание:** *выйти из текущего транспортного средства*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/exitVehicle)*",
+        "type": "function",
+        "snippet": "exitVehicle()"
+    },
+    "requestClass": {
+        "displayText": "requestClass(classId)",
+        "descriptionMarkdown": "**Описание:** *отправляет запрос серверу на смену класса*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/requestClass)*",
+        "type": "function",
+        "snippet": "requestClass(classId)"
+    },
+    "requestSpawn": {
+        "displayText": "requestSpawn()",
+        "descriptionMarkdown": "**Описание:** *отправляет запрос серверу на спавн*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/requestSpawn)*",
+        "type": "function",
+        "snippet": "requestSpawn()"
+    },
+    "sendPickup": {
+        "displayText": "sendPickup(pickupId, checkDist)",
+        "descriptionMarkdown": "**Описание:** *отправляет серверу информацию о поднятии пикапа*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendPickup)*",
+        "type": "function",
+        "snippet": "sendPickup(pickupId, checkDist)"
+    },
+    "sendDialog": {
+        "displayText": "sendDialog(dialogId, button, item, input)",
+        "descriptionMarkdown": "**Описание:** *отправляет серверу информацию об использовании диалога*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendDialog)*",
+        "type": "function",
+        "snippet": "sendDialog(dialogId, button, item, input)"
+    },
+    "sendSpawn": {
+        "displayText": "sendSpawn()",
+        "descriptionMarkdown": "**Описание:** *отправляет серверу информацию о спавне*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendSpawn)*",
+        "type": "function",
+        "snippet": "sendSpawn()"
+    },
+    "getHealth": {
+        "displayText": "getHealth()",
+        "descriptionMarkdown": "**Описание:** *получение текущего ХП бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getHealth)*",
+        "type": "function",
+        "snippet": "getHealth()"
+    },
+    "setHealth": {
+        "displayText": "setHealth(health)",
+        "descriptionMarkdown": "**Описание:** *установить ХП боту*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setHealth)*",
+        "type": "function",
+        "snippet": "setHealth(health)"
+    },
+    "sendInput": {
+        "displayText": "sendInput(input)",
+        "descriptionMarkdown": "**Описание:** *отправка сообщения серверу (команда или чат)*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendInput)*",
+        "type": "function",
+        "snippet": "sendInput(input)"
+    },
+    "sendSync": {
+        "displayText": "sendSync()",
+        "descriptionMarkdown": "**Описание:** *обновление позиции бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendSync)*",
+        "type": "function",
+        "snippet": "sendSync()"
+    },
+    "getArmour": {
+        "displayText": "getArmour()",
+        "descriptionMarkdown": "**Описание:** *получить текущее количество брони*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getArmour)*",
+        "type": "function",
+        "snippet": "getArmour()"
+    },
+    "setArmour": {
+        "displayText": "setArmour(armour)",
+        "descriptionMarkdown": "**Описание:** *установить броню боту*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setArmour)*",
+        "type": "function",
+        "snippet": "setArmour(armour)"
+    },
+    "getBotId": {
+        "displayText": "getBotId()",
+        "descriptionMarkdown": "**Описание:** *получение id текущего бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getBotId)*",
+        "type": "function",
+        "snippet": "getBotId()"
+    },
+    "getSkin": {
+        "displayText": "getSkin()",
+        "descriptionMarkdown": "**Описание:** *получение id скина текущего бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getSkin)*",
+        "type": "function",
+        "snippet": "getSkin()"
+    },
+    "setWeapon": {
+        "displayText": "setWeapon(weaponId)",
+        "descriptionMarkdown": "**Описание:** *выдает оружие боту*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setWeapon)*",
+        "type": "function",
+        "snippet": "setWeapon(weaponId)"
+    },
+    "getBotVehicle": {
+        "displayText": "getBotVehicle()",
+        "descriptionMarkdown": "**Описание:** *получение id транспортного средства бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getBotVehicle)*",
+        "type": "function",
+        "snippet": "getBotVehicle()"
+    },
+    "getWeapon": {
+        "displayText": "getWeapon()",
+        "descriptionMarkdown": "**Описание:** *получить id оружия в руках бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getWeapon)*",
+        "type": "function",
+        "snippet": "getWeapon()"
+    },
+    "getBotState": {
+        "displayText": "getBotState()",
+        "descriptionMarkdown": "**Описание:** *получение состояния бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getBotState)*",
+        "type": "function",
+        "snippet": "getBotState()"
+    },
+    "getPosition": {
+        "displayText": "getPosition()",
+        "descriptionMarkdown": "**Описание:** *получение координат бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getPosition)*",
+        "type": "function",
+        "snippet": "getPosition()"
+    },
+    "setPosition": {
+        "displayText": "setPosition(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *установить координаты боту*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setPosition)*",
+        "type": "function",
+        "snippet": "setPosition(x, y, z)"
+    },
+    "onSpawned": {
+        "displayText": "onSpawned(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при спавне бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSpawned)*",
+        "type": "snippet",
+        "snippet": "function onSpawned(x, y, z)\n\t${0}\nend"
+    },
+    "getSpeed": {
+        "displayText": "getSpeed()",
+        "descriptionMarkdown": "**Описание:** *получение скорости бота по коодинатам*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getSpeed)*",
+        "type": "function",
+        "snippet": "getSpeed()"
+    },
+    "getScore": {
+        "displayText": "getScore()",
+        "descriptionMarkdown": "**Описание:** *получение уровня бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getScore)*",
+        "type": "function",
+        "snippet": "getScore()"
+    },
+    "getPing": {
+        "displayText": "getPing()",
+        "descriptionMarkdown": "**Описание:** *получение пинга бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getPing)*",
+        "type": "function",
+        "snippet": "getPing()"
+    },
+    "dumpMem": {
+        "displayText": "dumpMem(data, size)",
+        "descriptionMarkdown": "**Описание:** *получение строки дампа участка памяти*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/dumpMem)*",
+        "type": "function",
+        "snippet": "dumpMem(data, size)"
+    },
+    "exit": {
+        "displayText": "exit()",
+        "descriptionMarkdown": "**Описание:** *выход из бота(закрытие окна)*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/exit)*",
+        "type": "function",
+        "snippet": "exit()"
+    },
+    "messageBox": {
+        "displayText": "messageBox(message)",
+        "descriptionMarkdown": "**Описание:** *показывает окно с указанным текстом*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/messageBox)*",
+        "type": "function",
+        "snippet": "messageBox(message)"
+    },
+    "getPlayersCount": {
+        "displayText": "getPlayersCount()",
+        "descriptionMarkdown": "**Описание:** *получение количества игроков на сервере*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getPlayersCount)*",
+        "type": "function",
+        "snippet": "getPlayersCount()"
+    },
+    "onSetPosition": {
+        "displayText": "onSetPosition(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении позиции бота сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetPosition)*",
+        "type": "snippet",
+        "snippet": "function onSetPosition(x, y, z)\n\t${0}\nend"
+    },
+    "bitStreamNew": {
+        "displayText": "bitStreamNew()",
+        "descriptionMarkdown": "**Описание:** *создание нового объекта BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamNew)*",
+        "type": "function",
+        "snippet": "bitStreamNew()"
+    },
+    "setSpeed": {
+        "displayText": "setSpeed(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *установить скорость боту по координатам*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setSpeed)*",
+        "type": "function",
+        "snippet": "setSpeed(x, y, z)"
+    },
+    "bitStreamDelete": {
+        "displayText": "bitStreamDelete(bs)",
+        "descriptionMarkdown": "**Описание:** *удаление ранее созданного объекта BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamDelete)*",
+        "type": "function",
+        "snippet": "bitStreamDelete(bs)"
+    },
+    "getQuaternion": {
+        "displayText": "getQuaternion()",
+        "descriptionMarkdown": "**Описание:** *получение кватерниона бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getQuaternion)*",
+        "type": "function",
+        "snippet": "getQuaternion()"
+    },
+    "getAnimation": {
+        "displayText": "getAnimation()",
+        "descriptionMarkdown": "**Описание:** *получение текущей анимации бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getAnimation)*",
+        "type": "function",
+        "snippet": "getAnimation()"
+    },
+    "getKeys": {
+        "displayText": "getKeys()",
+        "descriptionMarkdown": "**Описание:** *получение \"нажатых\" клавиш из исходящей синхронизации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getKeys)*",
+        "type": "function",
+        "snippet": "getKeys()"
+    },
+    "openUrl": {
+        "displayText": "openUrl(url)",
+        "descriptionMarkdown": "**Описание:** *отправка get запроса по url*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/openUrl)*",
+        "type": "function",
+        "snippet": "openUrl(url)"
+    },
+    "onScriptUpdate": {
+        "displayText": "onScriptUpdate()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое циклически, для выполнения действий независимо от других событий*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onScriptUpdate)*",
+        "type": "snippet",
+        "snippet": "function onScriptUpdate()\n\t${0}\nend"
+    },
+    "bitStreamReset": {
+        "displayText": "bitStreamReset(bs)",
+        "descriptionMarkdown": "**Описание:** *очистка потока BitSteam*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReset)*",
+        "type": "function",
+        "snippet": "bitStreamReset(bs)"
+    },
+    "getServerName": {
+        "displayText": "getServerName()",
+        "descriptionMarkdown": "**Описание:** *получение названия текущего сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getServerName)*",
+        "type": "function",
+        "snippet": "getServerName()"
+    },
+    "setOwnAutoReg": {
+        "displayText": "setOwnAutoReg(state)",
+        "descriptionMarkdown": "**Описание:** *включить собственную авторегистрацию*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setOwnAutoReg)*",
+        "type": "function",
+        "snippet": "setOwnAutoReg(state)"
+    },
+    "getNickName": {
+        "displayText": "getNickName()",
+        "descriptionMarkdown": "**Описание:** *получение ника текущего бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getNickName)*",
+        "type": "function",
+        "snippet": "getNickName()"
+    },
+    "getPassword": {
+        "displayText": "getPassword()",
+        "descriptionMarkdown": "**Описание:** *получение пароля текущего бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getPassword)*",
+        "type": "function",
+        "snippet": "getPassword()"
+    },
+    "setPassword": {
+        "displayText": "setPassword(password)",
+        "descriptionMarkdown": "**Описание:** *установить новый пароль для авторизации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setPassword)*",
+        "type": "function",
+        "snippet": "setPassword(password)"
+    },
+    "setNickName": {
+        "displayText": "setNickName(nickname)",
+        "descriptionMarkdown": "**Описание:** *устанавливает новый ник боту для входа*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setNickName)*",
+        "type": "function",
+        "snippet": "setNickName(nickname)"
+    },
+    "getServerPassword": {
+        "displayText": "getServerPassword()",
+        "descriptionMarkdown": "**Описание:** *получение текущего пароля сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getServerPassword)*",
+        "type": "function",
+        "snippet": "getServerPassword()"
+    },
+    "setServerPassword": {
+        "displayText": "setServerPassword(password)",
+        "descriptionMarkdown": "**Описание:** *устанавливает пароль сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setServerPassword)*",
+        "type": "function",
+        "snippet": "setServerPassword(password)"
+    },
+    "getServerAddress": {
+        "displayText": "getServerAddress()",
+        "descriptionMarkdown": "**Описание:** *получение IP адреса текущего сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getServerAddress)*",
+        "type": "function",
+        "snippet": "getServerAddress()"
+    },
+    "setServerAddress": {
+        "displayText": "setServerAddress(address)",
+        "descriptionMarkdown": "**Описание:** *установить новый IP адрес сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setServerAddress)*",
+        "type": "function",
+        "snippet": "setServerAddress(address)"
+    },
+    "adminsAdd": {
+        "displayText": "adminsAdd(admin)",
+        "descriptionMarkdown": "**Описание:** *добавляет ник в список администрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/adminsAdd)*",
+        "type": "function",
+        "snippet": "adminsAdd(admin)"
+    },
+    "adminsClear": {
+        "displayText": "adminsClear()",
+        "descriptionMarkdown": "**Описание:** *очищает список администрации для текущей сессии*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/adminsClear)*",
+        "type": "function",
+        "snippet": "adminsClear()"
+    },
+    "getReferer": {
+        "displayText": "getReferer()",
+        "descriptionMarkdown": "**Описание:** *получение текущего рефферала для регистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getReferer)*",
+        "type": "function",
+        "snippet": "getReferer()"
+    },
+    "getMail": {
+        "displayText": "getMail()",
+        "descriptionMarkdown": "**Описание:** *получение текущего e-mail для регистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getMail)*",
+        "type": "function",
+        "snippet": "getMail()"
+    },
+    "setMail": {
+        "displayText": "setMail(mail)",
+        "descriptionMarkdown": "**Описание:** *установить e-mail для авторегистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setMail)*",
+        "type": "function",
+        "snippet": "setMail(mail)"
+    },
+    "setReferer": {
+        "displayText": "setReferer(referer)",
+        "descriptionMarkdown": "**Описание:** *установить ник рефферала для авторегистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setReferer)*",
+        "type": "function",
+        "snippet": "setReferer(referer)"
+    },
+    "setQuaternion": {
+        "displayText": "setQuaternion(w, x, y, z)",
+        "descriptionMarkdown": "**Описание:** *установить кватернион боту*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setQuaternion)*",
+        "type": "function",
+        "snippet": "setQuaternion(w, x, y, z)"
+    },
+    "setAnimation": {
+        "displayText": "setAnimation(animId, animFlags)",
+        "descriptionMarkdown": "**Описание:** *установить боту анимацию*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setAnimation)*",
+        "type": "function",
+        "snippet": "setAnimation(animId, animFlags)"
+    },
+    "bitStreamInit": {
+        "displayText": "bitStreamInit(data, size)",
+        "descriptionMarkdown": "**Описание:** *создание нового объекта BitStream из готовых данных*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamInit)*",
+        "type": "function",
+        "snippet": "bitStreamInit(data, size)"
+    },
+    "bitStreamData": {
+        "displayText": "bitStreamData(bs)",
+        "descriptionMarkdown": "**Описание:** *возвращает данные потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamData)*",
+        "type": "function",
+        "snippet": "bitStreamData(bs)"
+    },
+    "getSex": {
+        "displayText": "getSex()",
+        "descriptionMarkdown": "**Описание:** *получение пола для регистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getSex)*",
+        "type": "function",
+        "snippet": "getSex()"
+    },
+    "setSex": {
+        "displayText": "setSex(sex)",
+        "descriptionMarkdown": "**Описание:** *установить пол для авторегистрации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setSex)*",
+        "type": "function",
+        "snippet": "setSex(sex)"
+    },
+    "onRecvPacket": {
+        "displayText": "onRecvPacket(packetId, packetData, packetSize)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при получении пакета*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onRecvPacket)*",
+        "type": "snippet",
+        "snippet": "function onRecvPacket(packetId, packetData, packetSize)\n\t${0}\nend"
+    },
+    "onSendPacket": {
+        "displayText": "onSendPacket(onRecvPacket)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отправке пакета*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSendPacket)*",
+        "type": "snippet",
+        "snippet": "function onSendPacket(onRecvPacket)\n\t${0}\nend"
+    },
+    "onRecvRpc": {
+        "displayText": "onRecvRpc(id, data, size)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при получении RPC*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onRecvRpc)*",
+        "type": "snippet",
+        "snippet": "function onRecvRpc(id, data, size)\n\t${0}\nend"
+    },
+    "onSendRpc": {
+        "displayText": "onSendRpc(id, data, size)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отправке RPC*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSendRpc)*",
+        "type": "snippet",
+        "snippet": "function onSendRpc(id, data, size)\n\t${0}\nend"
+    },
+    "onScriptExit": {
+        "displayText": "onScriptExit()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при выгрузке скрипта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onScriptExit)*",
+        "type": "snippet",
+        "snippet": "function onScriptExit()\n\t${0}\nend"
+    },
+    "onConnect": {
+        "displayText": "onConnect()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при подключении к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onConnect)*",
+        "type": "snippet",
+        "snippet": "function onConnect()\n\t${0}\nend"
+    },
+    "onGameInited": {
+        "displayText": "onGameInited()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое после инициализации сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onGameInited)*",
+        "type": "snippet",
+        "snippet": "function onGameInited()\n\t${0}\nend"
+    },
+    "setKeys": {
+        "displayText": "setKeys(keys, leftRightKey, upDownKey)",
+        "descriptionMarkdown": "**Описание:** *установка \"нажатых\" клавиш для исходящей синхронизации*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setKeys)*",
+        "type": "function",
+        "snippet": "setKeys(keys, leftRightKey, upDownKey)"
+    },
+    "bitStreamSize": {
+        "displayText": "bitStreamSize(bs)",
+        "descriptionMarkdown": "**Описание:** *возвращает размер данных потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamSize)*",
+        "type": "function",
+        "snippet": "bitStreamSize(bs)"
+    },
+    "bitStreamIgnore": {
+        "displayText": "bitStreamIgnore(bs, amount)",
+        "descriptionMarkdown": "**Описание:** *игнорирует байты в потоке BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamIgnore)*",
+        "type": "function",
+        "snippet": "bitStreamIgnore(bs, amount)"
+    },
+    "bitStreamSetWriteOffset": {
+        "displayText": "bitStreamSetWriteOffset(bs, offset)",
+        "descriptionMarkdown": "**Описание:** *устанавливает смещение для записи*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamSetWriteOffset)*",
+        "type": "function",
+        "snippet": "bitStreamSetWriteOffset(bs, offset)"
+    },
+    "bitStreamSetReadOffset": {
+        "displayText": "bitStreamSetReadOffset(bs, offset)",
+        "descriptionMarkdown": "**Описание:** *устанавливает смещение для чтения*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamSetReadOffset)*",
+        "type": "function",
+        "snippet": "bitStreamSetReadOffset(bs, offset)"
+    },
+    "bitStreamReadByte": {
+        "displayText": "bitStreamReadByte(bs)",
+        "descriptionMarkdown": "**Описание:** *считывает 1 байт из потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReadByte)*",
+        "type": "function",
+        "snippet": "bitStreamReadByte(bs)"
+    },
+    "bitStreamReadWord": {
+        "displayText": "bitStreamReadWord(bs)",
+        "descriptionMarkdown": "**Описание:** *считывает 2 байта из потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReadWord)*",
+        "type": "function",
+        "snippet": "bitStreamReadWord(bs)"
+    },
+    "bitStreamReadDWord": {
+        "displayText": "bitStreamReadDWord(bs)",
+        "descriptionMarkdown": "**Описание:** *считывает 4 байта из потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReadDWord)*",
+        "type": "function",
+        "snippet": "bitStreamReadDWord(bs)"
+    },
+    "bitStreamReadFloat": {
+        "displayText": "bitStreamReadFloat(bs)",
+        "descriptionMarkdown": "**Описание:** *считывает float из потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReadFloat)*",
+        "type": "function",
+        "snippet": "bitStreamReadFloat(bs)"
+    },
+    "bitStreamReadString": {
+        "displayText": "bitStreamReadString(bs, size)",
+        "descriptionMarkdown": "**Описание:** *считывает string из потока BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamReadString)*",
+        "type": "function",
+        "snippet": "bitStreamReadString(bs, size)"
+    },
+    "onReset": {
+        "displayText": "onReset()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при сбросе состояния бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onReset)*",
+        "type": "snippet",
+        "snippet": "function onReset()\n\t${0}\nend"
+    },
+    "onGameText": {
+        "displayText": "onGameText(gametext)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при получении ботом GameText*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onGameText)*",
+        "type": "snippet",
+        "snippet": "function onGameText(gametext)\n\t${0}\nend"
+    },
+    "onSetSpawnPos": {
+        "displayText": "onSetSpawnPos(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении сервером стандартной позиции спавна*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetSpawnPos)*",
+        "type": "snippet",
+        "snippet": "function onSetSpawnPos(x, y, z)\n\t${0}\nend"
+    },
+    "onServerMessage": {
+        "displayText": "onServerMessage(message)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при получении ботом сообщения от сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onServerMessage)*",
+        "type": "snippet",
+        "snippet": "function onServerMessage(message)\n\t${0}\nend"
+    },
+    "onChatMessage": {
+        "displayText": "onChatMessage(playerId, message)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при получении ботом сообщения из чата*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onChatMessage)*",
+        "type": "snippet",
+        "snippet": "function onChatMessage(playerId, message)\n\t${0}\nend"
+    },
+    "onCreateVehicle": {
+        "displayText": "onCreateVehicle(vehicleId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при появлении транспорта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCreateVehicle)*",
+        "type": "snippet",
+        "snippet": "function onCreateVehicle(vehicleId)\n\t${0}\nend"
+    },
+    "onDestroyVehicle": {
+        "displayText": "onDestroyVehicle(vehicleId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при исчезновении транспорта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDestroyVehicle)*",
+        "type": "snippet",
+        "snippet": "function onDestroyVehicle(vehicleId)\n\t${0}\nend"
+    },
+    "onSetVehicleParams": {
+        "displayText": "onSetVehicleParams(vehicleId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении параметров транспорта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetVehicleParams)*",
+        "type": "snippet",
+        "snippet": "function onSetVehicleParams(vehicleId)\n\t${0}\nend"
+    },
+    "onPlayerAddInWorld": {
+        "displayText": "onPlayerAddInWorld(playerId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при появлении игрока в зоне прорисовки*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerAddInWorld)*",
+        "type": "snippet",
+        "snippet": "function onPlayerAddInWorld(playerId)\n\t${0}\nend"
+    },
+    "onPlayerRemoveFromWorld": {
+        "displayText": "onPlayerRemoveFromWorld(playerId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при исчезновении игрока из зоны прорисовки*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerRemoveFromWorld)*",
+        "type": "snippet",
+        "snippet": "function onPlayerRemoveFromWorld(playerId)\n\t${0}\nend"
+    },
+    "onPlayerDeath": {
+        "displayText": "onPlayerDeath(playerId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при смерти игрока*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerDeath)*",
+        "type": "snippet",
+        "snippet": "function onPlayerDeath(playerId)\n\t${0}\nend"
+    },
+    "onTextDrawHide": {
+        "displayText": "onTextDrawHide(textDrawId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при скрытии текстдрава*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTextDrawHide)*",
+        "type": "snippet",
+        "snippet": "function onTextDrawHide(textDrawId)\n\t${0}\nend"
+    },
+    "onTextDrawSetString": {
+        "displayText": "onTextDrawSetString(textDrawId, textDrawString)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении содержимого текстдава*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTextDrawSetString)*",
+        "type": "snippet",
+        "snippet": "function onTextDrawSetString(textDrawId, textDrawString)\n\t${0}\nend"
+    },
+    "onTextDrawShow": {
+        "displayText": "onTextDrawShow(textDrawId, positionX, positionY, textDrawString)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при появлении текстдрава*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTextDrawShow)*",
+        "type": "snippet",
+        "snippet": "function onTextDrawShow(textDrawId, positionX, positionY, textDrawString)\n\t${0}\nend"
+    },
+    "onToggleSpectating": {
+        "displayText": "onToggleSpectating(state)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при переключении состояния наблюдателя у бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onToggleSpectating)*",
+        "type": "snippet",
+        "snippet": "function onToggleSpectating(state)\n\t${0}\nend"
+    },
+    "onPlayerPutInVehicle": {
+        "displayText": "onPlayerPutInVehicle(vehicleId, seatId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при посадке бота сервером в транспорт*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerPutInVehicle)*",
+        "type": "snippet",
+        "snippet": "function onPlayerPutInVehicle(vehicleId, seatId)\n\t${0}\nend"
+    },
+    "onPlayerEjectFromVehicle": {
+        "displayText": "onPlayerEjectFromVehicle()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при высадке бота из транспорта сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerEjectFromVehicle)*",
+        "type": "snippet",
+        "snippet": "function onPlayerEjectFromVehicle()\n\t${0}\nend"
+    },
+    "onCreateCheckpoint": {
+        "displayText": "onCreateCheckpoint()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при создании чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCreateCheckpoint)*",
+        "type": "snippet",
+        "snippet": "function onCreateCheckpoint()\n\t${0}\nend"
+    },
+    "onDestroyCheckpoint": {
+        "displayText": "onDestroyCheckpoint()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при исчезновении чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDestroyCheckpoint)*",
+        "type": "snippet",
+        "snippet": "function onDestroyCheckpoint()\n\t${0}\nend"
+    },
+    "onCreateRaceCheckpoint": {
+        "displayText": "onCreateRaceCheckpoint()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при создании гоночного чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCreateRaceCheckpoint)*",
+        "type": "snippet",
+        "snippet": "function onCreateRaceCheckpoint()\n\t${0}\nend"
+    },
+    "onDestroyRaceCheckpoint": {
+        "displayText": "onDestroyRaceCheckpoint()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при исчезновении гоночного чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDestroyRaceCheckpoint)*",
+        "type": "snippet",
+        "snippet": "function onDestroyRaceCheckpoint()\n\t${0}\nend"
+    },
+    "onCreatePickup": {
+        "displayText": "onCreatePickup(pickupId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при создании пикапа*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCreatePickup)*",
+        "type": "snippet",
+        "snippet": "function onCreatePickup(pickupId)\n\t${0}\nend"
+    },
+    "onDestroyPickup": {
+        "displayText": "onDestroyPickup(pickupId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при удалении пикапа*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDestroyPickup)*",
+        "type": "snippet",
+        "snippet": "function onDestroyPickup(pickupId)\n\t${0}\nend"
+    },
+    "onCreateObject": {
+        "displayText": "onCreateObject(objectId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при создании объекта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCreateObject)*",
+        "type": "snippet",
+        "snippet": "function onCreateObject(objectId)\n\t${0}\nend"
+    },
+    "onDestroyObject": {
+        "displayText": "onDestroyObject(objectId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при удалении объекта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDestroyObject)*",
+        "type": "snippet",
+        "snippet": "function onDestroyObject(objectId)\n\t${0}\nend"
+    },
+    "onAttachObjectToPlayer": {
+        "displayText": "onAttachObjectToPlayer(playerId, slotId, attach)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при прикреплении объекта к игроку*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onAttachObjectToPlayer)*",
+        "type": "snippet",
+        "snippet": "function onAttachObjectToPlayer(playerId, slotId, attach)\n\t${0}\nend"
+    },
+    "onTakeCheckpoint": {
+        "displayText": "onTakeCheckpoint(x, y, z)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при поднятии ботом чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTakeCheckpoint)*",
+        "type": "snippet",
+        "snippet": "function onTakeCheckpoint(x, y, z)\n\t${0}\nend"
+    },
+    "onPickUpPickup": {
+        "displayText": "onPickUpPickup(pickupId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при поднятии ботом пикапа*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPickUpPickup)*",
+        "type": "snippet",
+        "snippet": "function onPickUpPickup(pickupId)\n\t${0}\nend"
+    },
+    "onTextDrawClick": {
+        "displayText": "onTextDrawClick(textDrawId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при клике бота по текстдраву*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTextDrawClick)*",
+        "type": "snippet",
+        "snippet": "function onTextDrawClick(textDrawId)\n\t${0}\nend"
+    },
+    "onApplyAnimation": {
+        "displayText": "onApplyAnimation(playerId, animId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при установке игроку анимации сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onApplyAnimation)*",
+        "type": "snippet",
+        "snippet": "function onApplyAnimation(playerId, animId)\n\t${0}\nend"
+    },
+    "onDialogResponse": {
+        "displayText": "onDialogResponse(dialogId, dialogButton, dialogItem, dialogInput)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отправке ответа диалога ботом*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDialogResponse)*",
+        "type": "snippet",
+        "snippet": "function onDialogResponse(dialogId, dialogButton, dialogItem, dialogInput)\n\t${0}\nend"
+    },
+    "onSpawn": {
+        "displayText": "onSpawn()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при попытке бота заспавниться*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSpawn)*",
+        "type": "snippet",
+        "snippet": "function onSpawn()\n\t${0}\nend"
+    },
+    "onSendInput": {
+        "displayText": "onSendInput(input)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отправке ввода серверу ботом*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSendInput)*",
+        "type": "snippet",
+        "snippet": "function onSendInput(input)\n\t${0}\nend"
+    },
+    "onSync": {
+        "displayText": "onSync()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при отправке текущей позиции ботом*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSync)*",
+        "type": "snippet",
+        "snippet": "function onSync()\n\t${0}\nend"
+    },
+    "onTextLabelShow": {
+        "displayText": "onTextLabelShow(labelId, positionX, positionY, positionZ, labelString)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при создании 3D текста*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTextLabelShow)*",
+        "type": "snippet",
+        "snippet": "function onTextLabelShow(labelId, positionX, positionY, positionZ, labelString)\n\t${0}\nend"
+    },
+    "onTeleport": {
+        "displayText": "onTeleport(positionX, positionY, positionZ)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при телепорте бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onTeleport)*",
+        "type": "snippet",
+        "snippet": "function onTeleport(positionX, positionY, positionZ)\n\t${0}\nend"
+    },
+    "onCoordMasterStop": {
+        "displayText": "onCoordMasterStop()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при остановке работы коордмастера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCoordMasterStop)*",
+        "type": "snippet",
+        "snippet": "function onCoordMasterStop()\n\t${0}\nend"
+    },
+    "onCoordMasterComplete": {
+        "displayText": "onCoordMasterComplete()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при успешном телепорте коордмастером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCoordMasterComplete)*",
+        "type": "snippet",
+        "snippet": "function onCoordMasterComplete()\n\t${0}\nend"
+    },
+    "onSetHealth": {
+        "displayText": "onSetHealth(health)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении уровня здоровья боту сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetHealth)*",
+        "type": "snippet",
+        "snippet": "function onSetHealth(health)\n\t${0}\nend"
+    },
+    "onSetArmour": {
+        "displayText": "onSetArmour(armour)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении уровня брони бота сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetArmour)*",
+        "type": "snippet",
+        "snippet": "function onSetArmour(armour)\n\t${0}\nend"
+    },
+    "onSetMoney": {
+        "displayText": "onSetMoney(money)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при изменении количества денег бота сервером*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetMoney)*",
+        "type": "snippet",
+        "snippet": "function onSetMoney(money)\n\t${0}\nend"
+    },
+    "onPlayerQuit": {
+        "displayText": "onPlayerQuit(playerId, reasonId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при выходе игрока с сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerQuit)*",
+        "type": "snippet",
+        "snippet": "function onPlayerQuit(playerId, reasonId)\n\t${0}\nend"
+    },
+    "onPlayerJoin": {
+        "displayText": "onPlayerJoin(playerId, playerName)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при подключении игрока к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPlayerJoin)*",
+        "type": "snippet",
+        "snippet": "function onPlayerJoin(playerId, playerName)\n\t${0}\nend"
+    },
+    "teleport": {
+        "displayText": "teleport(posX, posY, posZ)",
+        "descriptionMarkdown": "**Описание:** *телепорт бота на координаты*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/teleport)*",
+        "type": "function",
+        "snippet": "teleport(posX, posY, posZ)"
+    },
+    "coordMasterState": {
+        "displayText": "coordMasterState()",
+        "descriptionMarkdown": "**Описание:** *получить текущее состояние коордмастера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/coordMasterState)*",
+        "type": "function",
+        "snippet": "coordMasterState()"
+    },
+    "coordMasterStop": {
+        "displayText": "coordMasterStop()",
+        "descriptionMarkdown": "**Описание:** *остановить работу коордмастера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/coordMasterStop)*",
+        "type": "function",
+        "snippet": "coordMasterStop()"
+    },
+    "coordMasterStart": {
+        "displayText": "coordMasterStart(posX, posY, posZ)",
+        "descriptionMarkdown": "**Описание:** *запустить коордмастер*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/coordMasterStart)*",
+        "type": "function",
+        "snippet": "coordMasterStart(posX, posY, posZ)"
+    },
+    "defCallAdd": {
+        "displayText": "defCallAdd(delay, repeat, func[, params])",
+        "descriptionMarkdown": "**Описание:** *создать отложенный вызов функции*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/defCallAdd)*",
+        "type": "function",
+        "snippet": "defCallAdd(delay, repeat, func[, params])"
+    },
+    "defCallDelete": {
+        "displayText": "defCallDelete(defCallId)",
+        "descriptionMarkdown": "**Описание:** *удалить отложенный вызов функции*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/defCallDelete)*",
+        "type": "function",
+        "snippet": "defCallDelete(defCallId)"
+    },
+    "downloadFile": {
+        "displayText": "downloadFile(url, file)",
+        "descriptionMarkdown": "**Описание:** *загрузить файл по ссылке*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/downloadFile)*",
+        "type": "function",
+        "snippet": "downloadFile(url, file)"
+    },
+    "getRakBotPath": {
+        "displayText": "getRakBotPath(append)",
+        "descriptionMarkdown": "**Описание:** *получить путь относительно корневой папки бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getRakBotPath)*",
+        "type": "function",
+        "snippet": "getRakBotPath(append)"
+    },
+    "getIniString": {
+        "displayText": "getIniString(file, section, key)",
+        "descriptionMarkdown": "**Описание:** *получить значение из INI файла*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getIniString)*",
+        "type": "function",
+        "snippet": "getIniString(file, section, key)"
+    },
+    "setIniString": {
+        "displayText": "setIniString(file, section, key, value)",
+        "descriptionMarkdown": "**Описание:** *установить значение в INI файле*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setIniString)*",
+        "type": "function",
+        "snippet": "setIniString(file, section, key, value)"
+    },
+    "isBotConnected": {
+        "displayText": "isBotConnected()",
+        "descriptionMarkdown": "**Описание:** *возвращает состояние подключения бота к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/isBotConnected)*",
+        "type": "function",
+        "snippet": "isBotConnected()"
+    },
+    "isBotSpawned": {
+        "displayText": "isBotSpawned()",
+        "descriptionMarkdown": "**Описание:** *получение состояния спавна бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/isBotSpawned)*",
+        "type": "function",
+        "snippet": "isBotSpawned()"
+    },
+    "isGameInited": {
+        "displayText": "isGameInited()",
+        "descriptionMarkdown": "**Описание:** *получить состояние инициализации игры*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/isGameInited)*",
+        "type": "function",
+        "snippet": "isGameInited()"
+    },
+    "isConnectRequested": {
+        "displayText": "isConnectRequested()",
+        "descriptionMarkdown": "**Описание:** *получить состояние процесса подключения к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/isConnectRequested)*",
+        "type": "function",
+        "snippet": "isConnectRequested()"
+    },
+    "onReconnect": {
+        "displayText": "onReconnect(delay)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при переподключении бота к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onReconnect)*",
+        "type": "snippet",
+        "snippet": "function onReconnect(delay)\n\t${0}\nend"
+    },
+    "onRequestConnect": {
+        "displayText": "onRequestConnect()",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при начале процесса подключения к серверу*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onRequestConnect)*",
+        "type": "snippet",
+        "snippet": "function onRequestConnect()\n\t${0}\nend"
+    },
+    "clickTextDraw": {
+        "displayText": "clickTextDraw(textDrawId)",
+        "descriptionMarkdown": "**Описание:** *отправка клика по текстдраву*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/clickTextDraw)*",
+        "type": "function",
+        "snippet": "clickTextDraw(textDrawId)"
+    },
+    "onDialogShow": {
+        "displayText": "onDialogShow(dialogId, dialogStyle, dialogTitle, okButtonText, cancelButtonText, dialogText)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при входящем диалоге*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDialogShow)*",
+        "type": "snippet",
+        "snippet": "function onDialogShow(dialogId, dialogStyle, dialogTitle, okButtonText, cancelButtonText, dialogText)\n\t${0}\nend"
+    },
+    "onCoordMasterStart": {
+        "displayText": "onCoordMasterStart(targetX, targetY, targetZ)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при начале работы коордмастера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onCoordMasterStart)*",
+        "type": "snippet",
+        "snippet": "function onCoordMasterStart(targetX, targetY, targetZ)\n\t${0}\nend"
+    },
+    "takeCheckpoint": {
+        "displayText": "takeCheckpoint()",
+        "descriptionMarkdown": "**Описание:** *функция поднятия чекпоинта*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/takeCheckpoint)*",
+        "type": "function",
+        "snippet": "takeCheckpoint()"
+    },
+    "onDialogResponseSent": {
+        "displayText": "onDialogResponseSent(dialogId, dialogButton, dialogItem, dialogInput)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое после отправки ответа диалогу на сервер*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onDialogResponseSent)*",
+        "type": "snippet",
+        "snippet": "function onDialogResponseSent(dialogId, dialogButton, dialogItem, dialogInput)\n\t${0}\nend"
+    },
+    "onPrintLog": {
+        "displayText": "onPrintLog(str)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при добавлении новой строки в лог окно бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onPrintLog)*",
+        "type": "snippet",
+        "snippet": "function onPrintLog(str)\n\t${0}\nend"
+    },
+    "onRunCommand": {
+        "displayText": "onRunCommand(command)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при выполнении команды ботом*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onRunCommand)*",
+        "type": "snippet",
+        "snippet": "function onRunCommand(command)\n\t${0}\nend"
+    },
+    "onSetSkin": {
+        "displayText": "onSetSkin(playerid, skinId)",
+        "descriptionMarkdown": "**Описание:** *событие, вызываемое при установке игроку скина с сервера*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/onSetSkin)*",
+        "type": "snippet",
+        "snippet": "function onSetSkin(playerid, skinId)\n\t${0}\nend"
+    },
+    "bitStreamWriteByte": {
+        "displayText": "bitStreamWriteByte(bs, value[, compressed])",
+        "descriptionMarkdown": "**Описание:** *записывает 1 байт в поток BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamWriteByte)*",
+        "type": "function",
+        "snippet": "bitStreamWriteByte(bs, value[, compressed])"
+    },
+    "bitStreamWriteWord": {
+        "displayText": "bitStreamWriteWord(bs, value[, compressed])",
+        "descriptionMarkdown": "**Описание:** *записывает 2 байта в поток BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamWriteWord)*",
+        "type": "function",
+        "snippet": "bitStreamWriteWord(bs, value[, compressed])"
+    },
+    "bitStreamWriteDWord": {
+        "displayText": "bitStreamWriteDWord(bs, value[, compressed])",
+        "descriptionMarkdown": "**Описание:** *записывает 4 байта в поток BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamWriteDWord)*",
+        "type": "function",
+        "snippet": "bitStreamWriteDWord(bs, value[, compressed])"
+    },
+    "bitStreamWriteFloat": {
+        "displayText": "bitStreamWriteFloat(bs, value[, compressed])",
+        "descriptionMarkdown": "**Описание:** *записывает float в поток BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamWriteFloat)*",
+        "type": "function",
+        "snippet": "bitStreamWriteFloat(bs, value[, compressed])"
+    },
+    "bitStreamWriteString": {
+        "displayText": "bitStreamWriteString(bs, str, len[, compressed])",
+        "descriptionMarkdown": "**Описание:** *записывает строку в поток BitStream*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/bitStreamWriteString)*",
+        "type": "function",
+        "snippet": "bitStreamWriteString(bs, str, len[, compressed])"
+    },
+    "createDialog": {
+        "displayText": "createDialog(dialogId, dialogStyle, title, btn1, btn2, text)",
+        "descriptionMarkdown": "**Описание:** *функция, создающая оффлайн диалог*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/createDialog)*",
+        "type": "function",
+        "snippet": "createDialog(dialogId, dialogStyle, title, btn1, btn2, text)"
+    },
+    "showDialog": {
+        "displayText": "showDialog()",
+        "descriptionMarkdown": "**Описание:** *функция, которая открывает созданный диалог (сервером или Вами)*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/showDialog)*",
+        "type": "function",
+        "snippet": "showDialog()"
+    },
+    "hideDialog": {
+        "displayText": "hideDialog()",
+        "descriptionMarkdown": "**Описание:** *функция, которая скрывает открытый диалог*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/hideDialog)*",
+        "type": "function",
+        "snippet": "hideDialog()"
+    },
+    "sleep": {
+        "displayText": "sleep(delay)",
+        "descriptionMarkdown": "**Описание:** *функция, которая замораживает выполнение функции*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sleep)*",
+        "type": "function",
+        "snippet": "sleep(delay)"
+    },
+    "reset": {
+        "displayText": "reset(reconnect)",
+        "descriptionMarkdown": "**Описание:** *функция, которая сбрасывает состояние бота*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/reset)*",
+        "type": "function",
+        "snippet": "reset(reconnect)"
+    },
+    "sendPacket": {
+        "displayText": "sendPacket(bs)",
+        "descriptionMarkdown": "**Описание:** *функция, которая отправляет пакет на сервер*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendPacket)*",
+        "type": "function",
+        "snippet": "sendPacket(bs)"
+    },
+    "sendRpc": {
+        "displayText": "sendRpc(id, bs)",
+        "descriptionMarkdown": "**Описание:** *функция, которая отправляет RPC на сервер*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendRpc)*",
+        "type": "function",
+        "snippet": "sendRpc(id, bs)"
+    },
+    "setReconnectDelay": {
+        "displayText": "setReconnectDelay(delay)",
+        "descriptionMarkdown": "**Описание:** *установить значение задержки переподключения*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/setReconnectDelay)*",
+        "type": "function",
+        "snippet": "setReconnectDelay(delay)"
+    },
+    "getReconnectDelay": {
+        "displayText": "getReconnectDelay()",
+        "descriptionMarkdown": "**Описание:** *получить значение задержки переподключения*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/getReconnectDelay)*",
+        "type": "function",
+        "snippet": "getReconnectDelay()"
+    },
+    "randomString": {
+        "displayText": "randomString(len, numbers)",
+        "descriptionMarkdown": "**Описание:** *генерация случайной строки*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/randomString)*",
+        "type": "function",
+        "snippet": "randomString(len, numbers)"
+    },
+    "sendVkNotify": {
+        "displayText": "sendVkNotify(message)",
+        "descriptionMarkdown": "**Описание:** *функция отправляет оповещение на страницу ВКонтакте, привязанную к учетной записи на сайте*\n**Страница:** *[перейти](https://rakbot.ru/funcs/view/sendVkNotify)*",
+        "type": "function",
+        "snippet": "sendVkNotify(message)"
+    }
+}
