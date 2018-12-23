@@ -1,5 +1,8 @@
-# rakbot-lua-autocomplete package
+# Автодополнение функций Lua в RakBot
 
-A short description of your package.
+Данный пакет для редактора Atom поможет Вам быстро создавать скрипты для RakBot
+Основан на пакете *[MoonLoader](https://github.com/MoonLoader/atom-moonloader)* от **FYP**
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Скрин 1](https://i.imgur.com/H5VL0VY.png)
+![Скрин 2](https://i.imgur.com/avejhMd.png)
+![Скрин 3](https://i.imgur.com/E4WV1BG.png)
