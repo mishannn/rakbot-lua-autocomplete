@@ -1,10 +1,10 @@
 {
     "name": "rakbot-lua-autocomplete",
     "main": "./lib/main",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Автодополнение Lua функций для RakBot",
     "keywords": [],
-    "repository": "https://github.com/atom/rakbot-lua-autocomplete",
+    "repository": "https://github.com/mishannn/rakbot-lua-autocomplete",
     "license": "MIT",
     "keywords": [
         "lua",
