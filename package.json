@@ -1,7 +1,7 @@
 {
     "name": "rakbot-lua-autocomplete",
     "main": "./lib/main",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Автодополнение Lua функций для RakBot",
     "repository": "https://github.com/mishannn/rakbot-lua-autocomplete",
     "homepage": "https://rakbot.ru",
